@@ -1,38 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Serial Programmer`,
+    title: `minijo.xyz`,
     author: {
-      name: `Sharad Raj`,
-      bio: `<p>
-              Developed by Sharad Raj who lives in India building useful things for the world.
-            </p>
-            <p>
-              You should follow him on <a href="https://github.com/sharadcodes">Github</a>
-            </p>
-            `,
-      dp: "https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4",
+      name: `Mini Jo`,
+      bio: ``,
+      dp: "https://s.gravatar.com/avatar/7e471557114b9ee19c80e224baae96a7?s=1000",
       social: [
         {
           title: "github",
-          username: `sharadcodes`,
+          username: `MiniJo`,
           url: `https://github.com/`,
         },
         {
           title: "linkedin",
-          username: `srsmaurya`,
+          username: `jonathanlacasse`,
           url: `https://linkedin.com/in/`,
         },
         {
           title: "twitter",
-          username: `sharadcodes`,
+          username: `itsminijo`,
           url: `https://twitter.com/`,
         },
-        { title: "dev", username: `sharadcodes`, url: `https://dev.to/` },
-        { title: "email", username: `me@example.com`, url: `mailto:` },
+        { 
+          title: "email", 
+          username: `mail@jonathanlacasse.com`, 
+          url: `mailto:`
+        },
       ],
     },
-    description: `A gatsby theme for serial programmers.`,
-    siteUrl: `https://sharadcodes.github.io/gatsby-theme-serial-programmer`,
+    description: `minijo.xyz`,
+    siteUrl: `https://minijo.xyz`,
   },
   plugins: [
     `gatsby-plugin-image`,
