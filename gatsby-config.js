@@ -15,11 +15,6 @@ module.exports = {
           url: `https://linkedin.com/in/`,
         },
         {
-          title: "github",
-          username: `MiniJo`,
-          url: `https://github.com/`,
-        },
-        {
           title: "twitter",
           username: `itsminijo`,
           url: `https://twitter.com/`,
@@ -28,6 +23,11 @@ module.exports = {
           title: "instagram",
           username: `itsminijo`,
           url: `https://instagram.com/`,
+        },
+        {
+          title: "github",
+          username: `MiniJo`,
+          url: `https://github.com/`,
         },
         { 
           title: "email", 
