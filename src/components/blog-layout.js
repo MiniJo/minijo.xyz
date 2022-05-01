@@ -13,6 +13,7 @@ const BlogLayout = ({ headerTitle, children }) => {
       </header>
       <Bio />
       <section className={blogStyles.articles}>{children}</section>
+      {children}
     </main>
   )
 }
