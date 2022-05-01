@@ -42,20 +42,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -77,12 +63,6 @@ module.exports = {
               classPrefix: "language-",
               showLineNumbers: true,
               noInlineHighlight: false,
-            },
-          },
-          {
-            resolve: "gatsby-plugin-tags",
-            options: {
-              templatePath: `${__dirname}/src/templates/tag.js`,
             },
           },
           `gatsby-remark-copy-linked-files`,
