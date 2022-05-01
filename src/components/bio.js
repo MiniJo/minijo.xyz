@@ -44,7 +44,7 @@ const Bio = () => {
               key={i}
             >
               <img
-                src={`/icons/${social_id.title}.png`}
+                src={`./icons/${social_id.title}.png`}
                 alt={social_id.title}
               />
             </a>
