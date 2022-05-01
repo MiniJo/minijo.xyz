@@ -3,27 +3,35 @@ module.exports = {
     title: `minijo.xyz`,
     author: {
       name: `Mini Jo`,
-      bio: ``,
+      bio: `<p>
+            Jonathan Lacasse</br>
+            Lead Engine Programmer @ Tuque Games
+            </p>`,
       dp: "https://s.gravatar.com/avatar/7e471557114b9ee19c80e224baae96a7?s=1000",
       social: [
-        {
-          title: "github",
-          username: `MiniJo`,
-          url: `https://github.com/`,
-        },
         {
           title: "linkedin",
           username: `jonathanlacasse`,
           url: `https://linkedin.com/in/`,
         },
         {
+          title: "github",
+          username: `MiniJo`,
+          url: `https://github.com/`,
+        },
+        {
           title: "twitter",
           username: `itsminijo`,
           url: `https://twitter.com/`,
         },
+        {
+          title: "instagram",
+          username: `itsminijo`,
+          url: `https://instagram.com/`,
+        },
         { 
           title: "email", 
-          username: `mail@jonathanlacasse.com`, 
+          username: `hello@minijo.xyz`, 
           url: `mailto:`
         },
       ],
