@@ -25,9 +25,6 @@ const PostLayout = ({ headerTitle, title, date, tags, children }) => {
         </div>
         {children}
       </section>
-      <footer>
-        <p>&copy; {new Date().getFullYear()}</p>
-      </footer>
     </main>
   )
 }

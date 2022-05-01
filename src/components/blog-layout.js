@@ -13,9 +13,6 @@ const BlogLayout = ({ headerTitle, children }) => {
       </header>
       <Bio />
       <section className={blogStyles.articles}>{children}</section>
-      <footer>
-        <p>&copy; {new Date().getFullYear()}</p>
-      </footer>
     </main>
   )
 }

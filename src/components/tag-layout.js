@@ -13,9 +13,6 @@ const TagLayout = ({ headerTitle, title, children }) => {
       </header>
       <h2>Tag: {title}</h2>
       <section className={blogStyles.articles}>{children}</section>
-      <footer>
-        <p>&copy; {new Date().getFullYear()}</p>
-      </footer>
     </main>
   )
 }
