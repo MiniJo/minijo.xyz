@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `minijo.xyz`,
     author: {
-      name: `Mini Jo`,
+      name: `Jonathan Lacasse`,
       bio: `<p>
             Jonathan Lacasse</br>
             Lead Engine Programmer @ Tuque Games
