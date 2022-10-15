@@ -5,7 +5,8 @@ module.exports = {
       name: `Jonathan Lacasse`,
       bio: `<p>
             Jonathan Lacasse</br>
-            Lead Engine Programmer @ Tuque Games
+            Lead Engine Programmer</br>
+            @ <a href="https://invokestudios.com">Invoke Studios</a> | <a href="https://wizards.com">Wizards</a>
             </p>`,
       dp: "https://s.gravatar.com/avatar/7e471557114b9ee19c80e224baae96a7?s=1000",
       social: [

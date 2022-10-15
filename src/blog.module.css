@@ -64,7 +64,7 @@ main {
   font-weight: 300;
 }
 .text-wrapper a {
-  color: cyan;
+  color: #a9abb3;
   border-bottom: 1px solid cyan;
 }
 .text-wrapper p {
